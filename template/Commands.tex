@@ -1,0 +1,14 @@
+\newcommand{\NewChapter}[2]{
+    \addcontentsline{toc}{section}{CHAPTER #1 #2}
+    \begin{center}
+        \fontsize{14}{21}\selectfont
+        \textbf{CHAPTER #1} \\
+        \textbf{#2}
+        \setcounter{section}{#1}
+        \setcounter{subsection}{0}
+    \end{center}
+}
+
+\newcommand{\fontheading}{\fontsize{14}{21}\selectfont}
+
+\newcommand{\fontbody}{\fontsize{12}{19}\selectfont}

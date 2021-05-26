@@ -1,0 +1,44 @@
+\usepackage{mathptmx}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{fullpage}
+\usepackage{algorithm} 
+\usepackage{algpseudocode} 
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\setlength{\headsep}{0.2in}
+
+\renewcommand\subsection{\@startsection {subsection}{2}{\z@}%
+    {-3.5ex \@plus -1ex \@minus -.2ex}%
+    {2.3ex \@plus.2ex}%
+    {\normalfont\normalsize\bfseries}
+}
+\renewcommand\subsubsection{\@startsection {subsubsection}{3}{\z@}%
+    {-3.5ex \@plus -1ex \@minus -.2ex}%
+    {2.3ex \@plus.2ex}%
+    {\normalfont\normalsize\bfseries}
+}
+\renewcommand\paragraph{\@startsection {paragraph}{4}{\z@}%
+    {-3.5ex \@plus -1ex \@minus -.2ex}%
+    {2.3ex \@plus.2ex}%
+    {\normalfont\normalsize\bfseries}
+}
+
+\usepackage{titlesec}
+
+\titlespacing*{\subsubsection}{20pt}{*}{*}
+\titlespacing*{\paragraph}{40pt}{*}{*}
+
+\setcounter{secnumdepth}{4}
+
+\usepackage{tocloft}
+\renewcommand{\cftdot}{}
+
+\usepackage[
+backend=biber,
+style=verbose,
+citestyle=apa
+]{biblatex}
